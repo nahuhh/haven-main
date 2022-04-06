@@ -98,7 +98,7 @@ invokes cmake commands as needed.
 
     ```bash
     cd haven-main
-    git checkout v2.2.2
+    git checkout v2.2.3
     make release
     ```
 
@@ -116,9 +116,9 @@ invokes cmake commands as needed.
     both unstable and incompatible with release software, though testing is always
     encouraged.
 
-* The resulting executables can be found in `monero/build/release/bin`
+* The resulting executables can be found in `haven-main/build/release/bin`
 
-* Add `PATH="$PATH:$HOME/haven-main/monero/build/release/bin"` to `.profile`
+* Add `PATH="$PATH:$HOME/haven-main/build/release/bin"` to `.profile`
 
 * Run Haven with `havend --detach`
 
@@ -188,7 +188,7 @@ application.
 * If you would like a specific [version/tag](https://github.com/haven-protocol-org/haven-main/tags), do a git checkout for that version. eg. 'v1.3.5'. If you don't care about the version and just want binaries from master, skip this step:
 	
     ```bash
-    git checkout v2.2.2
+    git checkout v2.2.3
     ```
 
 * If you are on a 64-bit system, run:
